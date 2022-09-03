@@ -2,7 +2,7 @@
 //(scheme) -> set of features and rules a certain entity should follow
 const mongoose = require('mongoose');
 const {Schema} = mongoose;
-const pass = require("../secrets");
+const pass = "7I4gacSdkMcyvQed";
 
 let dbLink =  `mongodb+srv://dbUser:${pass}@cluster0.s8axloi.mongodb.net/?retryWrites=true&w=majority`
 
